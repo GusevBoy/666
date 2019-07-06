@@ -1,0 +1,119 @@
+html
+    link(href="https://fonts.googleapis.com/css?family=Roboto|UnifrakturMaguntia&display=swap" rel="stylesheet")
+    head
+    meta(charset = 'utf-8')
+    meta(name='viewport', content="initial-scale=1.0, width=device-width")
+    title Webpack app
+    body
+        section.welcome
+            div.welcome__header
+                div.welcome__toggle-language RU/EN
+                nav(uk-navbar).welcome__menu
+                    div.uk-navbar-right
+                        ul.uk-navbar-nav
+                            li.uk-active
+                                a(href="#" ) HOME
+                            li
+                                a(href="#about" uk-scroll) ABOUT ME
+                            li
+                                a(href="#projects" uk-scroll) PROJECTS
+                            li
+                                a(href="#contacts" uk-scroll) Contacts
+            div.welcome__content
+                div
+                    p ABOUT mE
+                    p Быстрая верстка
+                    p Умный дизайн
+                    p Крутые идеи
+                div.welcome__description
+                    p Быстрая верстка
+                    p Умный дизайн
+                    p Крутые идеи
+                a(href="#contacts" uk-scroll).welcome__button.uk-button.uk-button-secondary.uk-button-large Напишите мне
+        div#about.about
+            //form(action="https://mailthis.to/gusev_v@yahoo.com" method="post" encType="multipart / form-data")
+            //    input(type="text" name="name" placeholder="Your Name")
+            //    input(type="email" name="_replyto" placeholder="Email")
+            //    textarea(name="message" placeholder="Textarea")
+            //    input(type="submit" value="Send")
+            div.about__inner
+                div(uk-parallax="y: 100,0").about__content
+                    div.about__title Обо мне
+                    div.about__description Изначально это были блок-схемы, но со временем они обросли разными визуальными элементами — вайрфреймами, скетчами и визуализацией жестов.
+                div.about__content.uk-margin-small
+                    div.about__title Скиллы
+                    div.about__description Изначально это были блок-схемы, но со временем они обросли разными визуальными элементами — вайрфреймами, скетчами и визуализацией жестов.
+                div.about__tags
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+                    div.about__tag Tag
+        div#projects.projects
+            div.projects__work.work
+            div.projects__education.education.inner
+                h2.education__title.uk-heading-medium Учебные проекты
+                div.education__content
+                    p.education__description Lorem Изначально это были блок-схемы, но со временем они обросли разными визуальными элементами — вайрфреймами, скетчами и визуализацией жестов. Lorem Lore
+                ul.education__list.list
+                    li.education__project.project
+                        h3.project__title Glassy
+                        a(href='localhost:9000').project__link
+                            img(src='/source/image/glassy.jpg').project__img
+                        p.project__comment Магазин мороженого с ярким дизайном
+                        p.project__description Технологии:
+                        ul.project__skills.list
+                            li.project__skill HTML
+                            li.project__skill CSS
+                            li.project__skill JS
+                        p.project__description Ссылки:
+                        a.project__link
+                        a.project__link
+                        a.project__link
+                    li.education__project.project
+                        h3.project__title Glassy
+                        a(href='localhost:9000').project__link
+                            img(src='/source/image/glassy.jpg').project__img
+                        p.project__comment Магазин мороженого с ярким дизайном
+                        p.project__description Технологии:
+                        ul.project__skills.list
+                            li.project__skill HTML
+                            li.project__skill CSS
+                            li.project__skill JS
+                        p.project__description Ссылки:
+                        a.project__link
+                        a.project__link
+                        a.project__link
+                    li.education__project.project
+                        h3.project__title Glassy
+                        a(href='localhost:9000').project__link
+                            img(src='/source/image/glassy.jpg').project__img
+                        p.project__comment Магазин мороженого с ярким дизайном
+                        p.project__description Технологии:
+                        ul.project__skills.list
+                            li.project__skill HTML
+                            li.project__skill CSS
+                            li.project__skill JS
+                        p.project__description Ссылки:
+                        a.project__link
+                        a.project__link
+                        a.project__link
+        div#contacts.contacts
+            form.form
+                div.form__inner
+                    label.form__label
+                        input.form__input
+                    label.form__label
+                        input.form__input
+                    label.form__label
+                        input.form__input
+                    label.form__label
+                        textarea(aria-required="true").form__textarea
+                    button.form__button.uk-button-large Нажми
+                div.form__contact
+
+    script( src="../source/style/uikit/js/uikit.min.js")
+    script( src="")

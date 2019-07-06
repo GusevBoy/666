@@ -1,0 +1,59 @@
+
+.welcome {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 1000px;
+  height: 100vh;
+  background-image: url("/source/image/ben.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+  margin: 0 auto;
+  padding: 0 0 20px 80px;
+}
+
+.welcome__header {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  padding: 0 30px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome__toggle-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 70px;
+  border: 1px solid crimson;
+}
+
+.welcome__menu {
+
+}
+
+.welcome__content {
+  margin: auto 0;
+  font-size: 64px;
+  line-height: 74px;
+  color: #000;
+}
+
+.welcome__description {
+  margin: 56px 0  0;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.welcome__button {
+  background-color: transparent;
+  border: 2px solid black;
+  color: #080808;
+  border-radius: 50px;
+}

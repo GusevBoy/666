@@ -1,0 +1,96 @@
+$base-color: #c6538c;
+
+.form {
+  display: flex;
+  width: 1000px;
+  padding: 60px 0;
+  margin: 10px;
+  border: 2px solid $base-color;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form__inner {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 0 44px;
+}
+
+.form__title {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: .36px;
+  margin: 0 0 100px;
+  color: $base-color;
+}
+
+.form__input {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 0 9px;
+  color: rgba(255, 255, 255, .6);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .07);
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: .36px;
+  transition: border-bottom .3s;
+  &:focus {
+    border-bottom: 1px solid $base-color;
+  }
+
+  &:active, &:hover, &:focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+
+
+}
+
+//
+//.form__input:focus {
+//  border-bottom: 1px solid #39b54a;
+//}
+
+.form__label {
+
+}
+
+.form__textarea {
+  resize: vertical;
+}
+
+.form__button {
+  border: 1px solid #fff;
+  color: #f8f8f8;
+  background-color: transparent;
+}
+
+.form__contact {
+  width: 35%;
+  padding: 0 44px;
+}
+
+.contact {
+
+}
+
+.contact__title {
+
+}
+
+.contact__item {
+
+}
+
+.social {
+
+}
+
+.social__item {
+
+}
+

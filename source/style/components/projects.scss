@@ -1,0 +1,94 @@
+.projects {
+  background: #111112;
+  margin: 0;
+  padding: 0;
+}
+
+.projects__education {
+  height: 100vh;
+  color: #fff;
+}
+
+.education {
+
+}
+
+.education__title {
+  color: #fff;
+  margin: 0 0 40px;
+}
+
+.education__content {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 40px 0;
+}
+
+.education__description {
+  width: 700px;
+}
+
+.education__list {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.education__project {
+
+}
+
+.project {
+  width: 300px;
+}
+
+.project__title {
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1.2px;
+  margin: 0 0 10px;
+  color: #f8f8f8;
+}
+
+.project__link {
+  margin: 0 0 10px;
+  display: block;
+}
+
+.project__img {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.project__comment {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  color: #f8f8f8;
+}
+
+.project__description {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  color: #f8f8f8;
+  margin: 0 0 5px;
+}
+
+.project__skills {
+  display: flex;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  color: #f8f8f8;
+  margin: 0 0 5px;
+  :first-child {
+    margin: 0;
+  }
+}
+
+.project__skill {
+  margin: 0 0 0 10px;
+}
+

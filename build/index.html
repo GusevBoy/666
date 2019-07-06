@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head><link href="index.css" rel="stylesheet"></head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../source/style/uikit/css/uikit.min.css">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <script src="../source/style/uikit/js/uikit.min.js"></script>
+  <script src="../source/style/uikit/js/uikit-icons.min.js"></script>
+  <title>Webpack app</title>
+  <body>
+    <section class="welcome">
+      <div class="welcome__header">
+        <div class="welcome__logo"></div>
+        <nav class="uk-navbar-container" uk-navbar>
+          <div class="uk-navbar-left">
+
+            <ul class="uk-navbar-nav">
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li>
+                <a href="#">Parent</a>
+                <div class="uk-navbar-dropdown">
+                  <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Item</a></li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+      <ul uk-accordion>
+        <li class="uk-open"><a class="uk-accordion-title">Titele</a>
+          <div class="uk-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </li>
+        <li><a class="uk-accordion-title">Titele222</a>
+          <div class="uk-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </li>
+      </ul>
+      <ul uk-accordion>
+        <li class="uk-open">
+          <a class="uk-accordion-title" href="#">Item 1</a>
+          <div class="uk-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </li>
+        <li>
+          <a class="uk-accordion-title" href="#">Item 2</a>
+          <div class="uk-accordion-content">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+          </div>
+        </li>
+        <li>
+          <a class="uk-accordion-title" href="#">Item 3</a>
+          <div class="uk-accordion-content">
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  <script type="text/javascript" src="index.js"></script></body>
+
+</html>
